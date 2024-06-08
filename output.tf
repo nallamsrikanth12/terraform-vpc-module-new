@@ -39,6 +39,6 @@ output "peering_id" {
 }
 
 output "aws_db_subnet_group_names" {
-    value = aws_db_subnet_group.aws_db_subnet_group
+    value = aws_db_subnet_group.aws_db_subnet_group.name
   
 }
