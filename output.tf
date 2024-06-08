@@ -37,3 +37,8 @@ output "ngw_id" {
 output "peering_id" {
   value = aws_vpc_peering_connection.peering_connection[0].id
 }
+
+output "aws_db_subnet_group_names" {
+    value = aws_db_subnet_group.aws_db_subnet_group
+  
+}
